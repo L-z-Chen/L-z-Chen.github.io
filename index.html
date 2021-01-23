@@ -1,0 +1,470 @@
+<!-- Kaihua Tang, 2017.11.20 -->
+<html class="lizhang__math_bjtu_edu">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Lizhang Chen</title>
+  <script async="" src="./JS_CSS_Files/analytics.js"></script>
+  <script src="./JS_CSS_Files/jquery-1.11.2.min.js"></script>
+  <script src="./JS_CSS_Files/bootstrap.min.js"></script>
+  <link href="./JS_CSS_Files/bootstrap.min.css" rel="stylesheet">
+  <link href="./JS_CSS_Files/css" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      font-family: 'sans-serif';
+      font-size: 16px;
+      background-color: #FFFCF4;
+      color: #4F6071;
+    }
+
+    .color1 {
+      background-color: #CCC;
+    }
+
+    #header {
+      width: 100%;
+      height: 360px;
+      background-color: #F0EAD6
+        /* background-color: #b30000; */
+    }
+
+    #header-inner {
+      position: absolute;
+      width: 70%;
+      left: 30%;
+      top: 150px;
+    }
+
+    .img-me {
+      border: 3px solid white;
+      float: left;
+      height: 200px;
+    }
+
+    .header-text {
+      margin-top: 60px;
+      margin-left: 220px;
+    }
+
+    .header-text-name {
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    .header-text-email {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .header-text-cv {
+      margin-left: 50px;
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .header-text-desc {
+      font-size: 20px;
+    }
+
+    #contact-info {
+      position: absolute;
+      left: 80%;
+      width: 20%;
+      top: 360px;
+      height: 100px;
+      background-color: #EEE;
+    }
+
+    .vspace {
+      margin-bottom: 20px;
+    }
+
+    .vspace-top {
+      margin-top: 30px;
+    }
+
+    .paper-title {
+      margin-left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .paper-authors {
+      margin-left: 20px;
+      font-style: italic;
+    }
+
+    .paper-link {
+      margin-left: 20px;
+    }
+
+    .paper-detail {
+      margin-left: 20px;
+    }
+
+    .school-image {
+      width: 100px;
+    }
+
+    .dual-school-image {
+      width: 150px;
+    }
+
+    .school-name {
+      font-size: 20px;
+    }
+
+    .school-time {
+      font-style: italic;
+    }
+
+    .school-detail {}
+
+    .project-image {
+      width: 300px;
+    }
+
+    .project-name {
+      margin-left: 120px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .project-detail {
+      margin-left: 120px;
+    }
+  </style>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-50623594-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body data-gr-c-s-loaded="true">
+  <div id="header">
+    <div id="header-inner">
+      <img src="./me.jpg" class="img-circle img-me">
+      <div class="header-text">
+        <div class="header-text-name">
+          Lizhang Chen
+        </div>
+        <div class="header-text-email">
+          lz.chen0807 [at] gmail [dot] com
+        </div>
+        <div>
+          <a href="./CV.pdf">[Résumé]</a> <a href="https://github.com/L-z-Chen">[Github]</a> <a
+            href="https://scholar.google.com/citations?hl=en&authuser=1&user=CYkekywAAAAJ">[Google Scholar]</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-11 col-md-offset-1">
+      <div class="row">
+        <h1>About Me</h1>
+		
+        <div class="vspace">
+          I'm a third-year undergraduate student at Beijing Jiaotong University, supervised by <a href="http://faculty.bjtu.edu.cn/9129/"
+            target="_blank">Jitao Sang</a> and <a href="http://faculty.bjtu.edu.cn/9129/"
+			target="_blank">Jitao Sang</a>
+        </div>
+
+        <!--<div class="vspace">
+          I got my Bachelor's degree from
+          <a href="http://english.seiee.sjtu.edu.cn/english/info/8338.htm" target="_blank">
+            IEEE honor class</a>
+          at Shanghai Jiao Tong University, and the dual-master degree from the joint programme of SJTU and Waseda
+          University.
+        </div>
+-->
+        <div>
+          I'm currently working on robust deep learning, including long-tailed recognition and adversarial robustness, 
+          and visual reasoning, including scene understanding and causal inference in computer vision.
+          Besides, as a gamer and a former game developer, I'm always interested in game AI.
+        </div>
+      </div>
+
+      <div class="row">
+        <h1>Publications</h1>
+
+        <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/2011.09789" target="_blank">
+              An Experimental Study of Semantic Continuity for Deep Learning Models
+            </a>
+          </div>
+          <div class="paper-authors">
+           Shangxi Wu, Jitao Sang, Xian Zhao, <u>Lizhang Chen</u>
+          </div>
+          <div class="paper-detail">
+           preprint</b>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/2006.04315https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLASN2018&filename=GZSL201723002&v=Z5%25mmd2F%25mmd2BQY%25mmd2FXZ8oP42iKIJGobxHw0SZ42Fi8B9vVsBZFBVPJlXi3WzOD2nNH5%25mmd2F3Rv3tY" target="_blank">
+              Specification 01 series and Catalan number
+            </a>
+          </div>
+          <div class="paper-authors">
+            <u>Lizhang Chen</u>, Jiasen Tong
+          </div>
+          <div class="paper-detail">
+            Gao Zhong Shu Li Hua</b>
+          </div>
+        </div>
+
+ <!--        <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/2002.11949" target="_blank">
+              Unbiased Scene Graph Generation from Biased Training
+            </a>
+          </div>
+          <div class="paper-authors">
+            <u>Kaihua Tang</u>, Yulei Niu, Jianqiang Huang, Jiaxin Shi, Hanwang Zhang
+          </div>
+          <div class="paper-detail">
+            CVPR 2020 <b>(oral)</b>
+          </div>
+        </div>
+
+       <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/2004.00900" target="_blank">
+              Learning to Segment the Tail
+            </a>
+          </div>
+          <div class="paper-authors">
+            Xinting Hu, Yi Jiang, <u>Kaihua Tang</u>, Hanwang Zhang, Chunyan Miao, Jingyuan Chen
+          </div>
+          <div class="paper-detail">
+            CVPR 2020
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/1812.01880" target="_blank">
+              Learning to Compose Dynamic Tree Structures for Visual Contexts
+            </a>
+          </div>
+          <div class="paper-authors">
+            <u>Kaihua Tang</u>, Hanwang Zhang, Baoyuan Wu, Wenhan Luo, Wei Liu
+          </div>
+          <div class="paper-detail">
+            CVPR 2019 <b>(oral & appears on the Best Paper Finalists [accept rate: 0.87% = 45/5160])</b>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="https://arxiv.org/abs/1812.02378" target="_blank">
+              Auto-Encoding Scene Graphs for Image Captioning
+            </a>
+          </div>
+          <div class="paper-authors">
+            Xu Yang, <u>Kaihua Tang</u>, Hanwang Zhang, Jianfei Cai
+          </div>
+          <div class="paper-detail">
+            CVPR 2019 <b>(oral)</b>
+          </div>
+        </div>
+
+
+        <div class="row vspace-top">
+          <div class="paper-title">
+            <a href="./Files/ACCV16.pdf" target="_blank">
+              Eigen-Aging Reference Coding for Cross-Age Face Verification and Retrieval
+            </a>
+          </div>
+          <div class="paper-authors">
+            <u>Kaihua Tang</u>, Sei-ichiro Kamata, Xiaonan Hou, Shouhong Ding, Lizhuang Ma
+          </div>
+          <div class="paper-detail">
+            ACCV 2016
+          </div>
+        </div>
+
+      </div>
+-->
+      <div class="row">
+        <h1>Awards</h1>
+        <li>Second prize in North Chinese Undergraduate Physics Tournament. 2020</li>
+        <li>Honorable Prize in Chinese Undergraduate Physics Tournament. 2020</li>
+        <li>Second prize in Chinese Undergraduate Physical Experiment Competition,2020</li>
+        <li>Second prize in Shandong province mathematical society summer camp. 2017</li>
+      </div>
+
+ <!--     <div class="row">
+        <h1>Educations</h1>
+
+        <div class="row vspace-top">
+          <div class="col-xs-3 text-center">
+            <img class="school-image" src="./Img_Files/ntu2.png">
+          </div>
+          <div class="col-xs-9">
+            <div class="school-name">
+              <b>Nanyang Technological University</b>, Singapore
+            </div>
+            <div class="school-time">
+              Ph.D Candidate of Computer Science and Engineering (2018.7 - Now)
+            </div>
+            <div class="school-detail">
+              Working with Asst Prof.Zhang Hanwang.
+            </div>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-xs-3 text-center">
+            <img class="dual-school-image" src="./Img_Files/dualms.png">
+          </div>
+          <div class="col-xs-9">
+            <div class="school-name">
+              <b>Waseda University</b>, Japan; <b>Shanghai Jiao Tong University</b>, China
+            </div>
+            <div class="school-time">
+              Dual Master Program of Science (2015.9 - 2018.3)
+            </div>
+            <div class="school-detail">
+              Primary major in Computer Science. Working with Prof.Ma Lizhuang & Prof.Kamata Sei-ichiro.
+            </div>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-xs-3 text-center">
+            <img class="school-image" src="./Img_Files/sjtu.png">
+          </div>
+          <div class="col-xs-9">
+            <div class="school-name">
+              <b>Shanghai Jiao Tong University</b>, China
+            </div>
+            <div class="school-time">
+              Bachelor of Science (2011.9 - 2015.8)
+            </div>
+            <div class="school-detail">
+              Primary major in Computer Science, Second major in Chinese Traditional Painting
+            </div>
+          </div>
+        </div>
+
+      </div>
+-->
+
+
+      <div class="row vspace-top">
+        <h1>Projects</h1>
+
+        <div class="row vspace-top">
+          <div class="col-xs-3 text-center">
+            <img class="project-image" src="./Img_Files/project4.png">
+          </div>
+          <div class="col-xs-9">
+            <div class="project-name">
+              <a href="https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch" target="_blank">Scene Graph
+                Benchmark in Pytorch</a>
+            </div>
+            <div class="project-detail">
+              This project aims to build a new CODEBASE for Scene Graph Generation (SGG), and it is also a Pytorch
+              implementation of the paper "Unbiased Scene Graph Generation from Biased Training". It is built on top of
+              the well-known maskrcnn-benchmark and defines relationship prediction as an additional roi_head. Moreover,
+              I included all the exsiting metrics: R@K, mR@K, ngR@K, zR@K, to benchmark the SGG.
+            </div>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-xs-3 text-center">
+            <img class="project-image" src="./Img_Files/vqa.png">
+          </div>
+          <div class="col-xs-9">
+            <div class="project-name">
+              <a href="https://github.com/KaihuaTang/VQA2.0-Recent-Approachs-2018.pytorch" target="_blank">VQA2.0 Recent
+                Approachs 2018 in Pytorch</a>
+            </div>
+            <div class="project-detail">
+              An open-source visual question answering (VQA) CODEBASE built on top of the bottom-up-attention-vqa. It
+              integrates several popular VQA papers published in 2018, which includes: bottom-up top-down, bilinear
+              attention network, learning to count, learning conditioned graph structures, intra- and inter-modality
+              attention.
+            </div>
+          </div>
+        </div>
+
+        <div class="row vspace-top">
+          <div class="col-xs-3 text-center">
+            <img class="project-image" src="./Img_Files/project2.png">
+          </div>
+          <div class="col-xs-9">
+            <div class="project-name">
+              Indie Game Development
+            </div>
+            <div class="project-detail">
+              Out of interest, I independently developed several mobile games on Iphone. They have been downloaded over
+              10k times on Apple store in half a year.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="row vspace-top vspace">
+        <h1>Experience</h1>
+
+        <h4><b>Tencent, AI Lab, Research Intern (2018.3 - 2018.6)</b></h4>
+        Major topic: Scene Graph Generation
+        <br>
+        Mentor: Wenhan Luo, Baoyuan Wu
+        <br><br>
+
+        <h4><b>Mihoyo, Software Engineer Intern (2017.4 - 2017.12)</b></h4>
+        Mobile Game Development Using Unity 3D.
+        <br><br>
+
+        <h4><b>Toshiba, Research & Development Intern (2015.8 - 2015.9)</b></h4>
+        Major Project: Scenery Image Stitching and Inpainting.
+        <br>
+        Mentor: Kaoru Matsuoka
+        <br><br>
+
+        <h4><b>YAPM Summer Volunteer, Yunnan Province, China (2014.7 - 2014.8)</b></h4>
+        Youth Ambassador Program for Minorities (TECC Organization) is determined to help the youth generation of
+        minorities in remote area of China to inherit and protect their cultures.
+        <br><br>
+
+        <h4><b>
+            <a href="https://speechlab.sjtu.edu.cn/node/7">
+              Speech Lab
+            </a>
+            Intern, SJTU (2014.3 - 2014.9)</b></h4>
+
+      </div>
+
+    </div>
+  </div>
+
+<!--  <p align="center"><br>
+    <a href='https://clustrmaps.com/site/1an2z' title='Visit tracker'><img
+        src='//clustrmaps.com/map_v2.png?cl=ffffff&w=250&t=tt&d=jtVx5gGD4Jpkn2bxejPg0-3tz8nkFVX5xQdTG-UF-y8&co=6cb3e6&ct=ffffff' /></a>
+  </p>
+-->
+  <p align="center"><br>
+    <span class="STYLE6">
+      All rights reserved & Last update on Jan, 2021
+    </span></p>
+
+
+</body>
+
+</html>
